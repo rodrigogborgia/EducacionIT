@@ -1,0 +1,49 @@
+*{box-sizing: border-box;}
+
+nav, h1{text-align: center;}
+h1 {font-size: 100px;
+    text-decoration: underline green;
+    color: rgb(231, 5, 201);
+}
+a,p{
+    text-decoration: none; text-transform: capitalize;
+    color: rgb(231, 5, 201);
+    line-height: 100px;
+}
+a[title="ir a educacionit"]{
+    color: rgb(5, 231, 111);
+    background-color: rgb(231, 5, 5);
+}
+a:hover{text-decoration: underline;
+    color: rgb(231, 5, 5);
+    background-color: rgb(231, 5, 201);
+}
+a:active{
+    color: rgb(77, 5, 231);
+    background-color: rgb(167, 231, 5);
+}
+body{
+    width: 80%;margin: auto; background-color: rgb(209, 208, 208);
+    border: 20px solid rgb(5, 231, 111);
+    text-align: center;
+}
+footer img{
+    width: 5%; vertical-align: middle;}
+
+nav, p{padding: 5%, 10%, 3%, 0;}
+
+nav{box-sizing: border-box;}
+
+div img{
+    width: 10%; float: right; margin-left: 10%;}
+
+div{padding: 5%;}
+
+ul{list-style-type: none;}
+
+form{ 
+    margin: auto; background-color: rgb(246, 140, 140);}
+
+address{font-style: normal; margin: 2%;}
+
+label{display: block;}
